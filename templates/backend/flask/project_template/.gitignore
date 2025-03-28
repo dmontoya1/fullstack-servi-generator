@@ -1,0 +1,11 @@
+# Archivos y carpetas de Python
+__pycache__/
+*.py[cod]
+*.swp
+*.egg-info/
+dist/
+build/
+.env
+venv/
+ENV/
+env/

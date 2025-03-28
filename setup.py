@@ -6,14 +6,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="fullstack-project-generator",
     version="0.1.0",
-    author="Tu Nombre",
-    author_email="tu.email@example.com",
+    author="Daniel Felipe Montoya Ramirez",
+    author_email="daniel.montoya@servinformacion.com",
     description="Generador de proyectos FullStack con configuraciones predefinidas",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.tu-usuario/fullstack-project-generator",
-    packages=find_packages(where='src'),
-    package_dir={'': 'src'},
+    url="https://github.com/dmontoya1/fullstack-servi-generator",
+    packages=find_packages(),
     install_requires=[
         'click>=8.1.3',
         'pyyaml>=6.0',
@@ -21,7 +20,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'fullstack-gen=fullstack_generator.cli:main',
+            'fs-servi=generator.cli:app',
         ],
     },
     classifiers=[

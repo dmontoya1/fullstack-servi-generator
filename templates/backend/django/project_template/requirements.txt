@@ -1,0 +1,6 @@
+Django
+gunicorn
+{% if drf %}
+djangorestframework
+{% endif %}
+python-decouple
