@@ -1,0 +1,2 @@
+[console_scripts]
+fs-servi = generator.cli:app

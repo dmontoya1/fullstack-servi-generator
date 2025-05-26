@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: fullstack-project-generator
+Version: 0.1.0
+Summary: Generador de proyectos FullStack con configuraciones predefinidas
+Home-page: https://github.com/dmontoya1/fullstack-servi-generator
+Author: Daniel Felipe Montoya Ramirez
+Author-email: daniel.montoya@servinformacion.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.1.3
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: cookiecutter>=2.1.1
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
